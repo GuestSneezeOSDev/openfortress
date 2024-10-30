@@ -1,0 +1,20 @@
+// Vertex and Pixel shaders to compile (Shader Model 2.0b)
+
+// VertexLitGeneric when using phong and bumpmapping
+// Needed to be able to disable half-lambert
+of_skin_ps20b.fxc
+of_skin_vs20.fxc
+
+of_vertexlit_and_unlit_generic_bump_ps20b.fxc
+of_vertexlit_and_unlit_generic_bump_vs20.fxc
+of_vertexlit_and_unlit_generic_ps20b.fxc
+of_vertexlit_and_unlit_generic_vs20.fxc
+
+// Cloak effect
+of_cloak_blended_pass_ps20b.fxc
+of_cloak_blended_pass_vs20.fxc
+
+// Post Processing effect
+ToxicOverlay_ps20b.fxc
+
+sdk_screenspaceeffect_vs20.fxc

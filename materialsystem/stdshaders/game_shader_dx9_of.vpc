@@ -1,0 +1,35 @@
+//-----------------------------------------------------------------------------
+//	game_shader_dx9.vpc
+//
+//	Project Script for mods to use an an example of how to override shaders
+//  LUNA: 
+//-----------------------------------------------------------------------------
+
+$Macro SRCDIR		"..\.."
+$Macro GAMENAME     "open_fortress"
+$Include "$SRCDIR\materialsystem\stdshaders\game_shader_dx9_base.vpc"
+
+$Project "Shaders (Open Fortress)"
+{
+    $Folder	"Source Files"
+    {
+        $Folder "Shared"
+        {
+            $File "of_cloak_blended_pass_helper.cpp"
+            $File "of_cloak_blended_pass_helper.h"
+        }
+        $Folder	"VertexLitGeneric"
+        {
+            $File "of_vertexlitgeneric_dx9.cpp"
+            $File "of_vertexlitgeneric_dx9_helper.cpp"
+            $File "of_vertexlitgeneric_dx9_helper.h"
+            $File "of_skin_dx9_helper.cpp"
+            $File "of_skin_dx9_helper.h"
+        }
+        $Folder "Post Processing"
+        {
+            $File "BlurDOF.cpp"
+            $File "ToxicOverlay.cpp"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+// Vertex and Pixel shaders to compile (Shader Model 3.0)
+
+// VertexLitGeneric when using phong and bumpmapping
+// Needed to be able to disable half-lambert
+of_skin_ps30.fxc
+of_skin_vs30.fxc
+
+of_vertexlit_and_unlit_generic_bump_ps30.fxc
+of_vertexlit_and_unlit_generic_bump_vs30.fxc
+of_vertexlit_and_unlit_generic_ps30.fxc
+of_vertexlit_and_unlit_generic_vs30.fxc
+
+// Cloak effect
+of_cloak_blended_pass_ps30.fxc
+of_cloak_blended_pass_vs30.fxc
+
+// Post Processing effects
+BlurDOF_ps30.fxc
+ToxicOverlay_ps30.fxc

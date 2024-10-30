@@ -1,0 +1,2 @@
+// LUNA: i know this is hacky as fuck, but its nice to have it all in one file yknow
+#include "of_vertexlit_and_unlit_generic_bump_vs30.fxc"
